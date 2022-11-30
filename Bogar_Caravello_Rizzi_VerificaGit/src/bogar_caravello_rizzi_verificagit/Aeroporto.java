@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package bogar_caravello_rizzi_verificagit;
 
-/**
- *
- * @author 4ib
- */
+
 public class Aeroporto {
     private String citta;
     private float superficie;
