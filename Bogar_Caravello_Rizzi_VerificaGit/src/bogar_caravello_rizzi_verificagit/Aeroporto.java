@@ -32,5 +32,9 @@ public class Aeroporto {
     public void setSuperficie(float superficie){
         this.superficie = superficie;
     }
+    
+    public String toString(){
+        return "L'aeroporto di " + citta + "ha una superificie di " + superficie; 
+    }
 }
 
