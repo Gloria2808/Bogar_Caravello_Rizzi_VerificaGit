@@ -17,6 +17,8 @@ public class Bogar_Caravello_Rizzi_VerificaGit {
         String citta = " ";
         float superficie = 0;
         Aeroporto aeroporti[] = new Aeroporto[1];
+        aeroporti[0] = new Aeroporto("Roma", 100);
+        
         System.out.println("L'aeroporto di " + citta + "ha una superificie di " + superficie );
     }
     
