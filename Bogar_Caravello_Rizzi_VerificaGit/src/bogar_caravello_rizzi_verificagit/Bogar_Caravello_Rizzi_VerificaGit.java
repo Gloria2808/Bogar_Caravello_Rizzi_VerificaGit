@@ -1,20 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package bogar_caravello_rizzi_verificagit;
+import java.util.*;
 
-/**
- *
- * @author 4ib
- */
 public class Bogar_Caravello_Rizzi_VerificaGit {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        String citta=" ";
+        float superficie=0;
+        Aereo[] aerei = new Aereo[5];
+        
+        aerei[0]= new Aereo("A", 100, "ALITALIA", "FFF");
+        aerei[1]= new Aereo("B", 200, "ALIBABA", "CCC");
+        aerei[2]= new Aereo("C", 300, "RIZZI", "GGG");
+        aerei[3]= new Aereo("D", 100, "NON", "EEE");
+        aerei[4]= new Aereo("E", 100, "ECCOCI", "HHH");
+        
+            System.out.println("L?areoporto di "+citta+" ha una superficie di "+superficie+". Gli aerei disponibili sohno "+Arrays.toString(aerei));
     }
     
 }
